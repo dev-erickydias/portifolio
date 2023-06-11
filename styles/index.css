@@ -38,3 +38,23 @@
     line-height: 1.15;
     color: #2F80ED;
 }
+.main {
+    display: flex; 
+    flex-direction: column;
+    border: 2px solid rebeccapurple;
+    width: 30%;
+    margin: 50px 0 0 50px;
+    row-gap: 30px;
+}
+.title{
+    font-family: 'sarala', sans-serif;
+    font-size: 30px;
+}
+.image_page{
+    display: flex;
+    
+}
+.footer {
+    background-color: #000;
+    height: 90px;
+}
