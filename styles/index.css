@@ -1,8 +1,9 @@
 @import url(./normalize.css);
 @import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,200;1,300&family=Sarala:wght@400;700&display=swap');
 
 .page { 
-    font-family: 'Sarala', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     background-image: url(../images/pexels-shawn-stutzman-1010496.jpg);
     background-color: #f1f1f1;
     background-size: cover;
@@ -32,6 +33,7 @@
     font-size: 20px;
     line-height: 1.15;
     color: #000000;
+    font-family: 'IBM Plex Serif', serif;
 }
 .menu_links-element:hover {
     color: orangered;
@@ -51,6 +53,7 @@
     position: absolute;
     top: 50%;
     left: 20px;
+    justify-content: center;
 }
 .title {
     font-family: 'sarala' sans-serif;
