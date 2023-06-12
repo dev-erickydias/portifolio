@@ -36,13 +36,32 @@
 }
 /*aquie termina o meu header e começa o meu conteudo principal */
 .contain {
-
+    display: flex;
+    margin: auto 0;
+}
+.contain__text {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 20px;
 }
 .title {
+    font-family: 'sarala' sans-serif;
+    color: #f1f1f1;
+    margin: 20px auto 10px 30px;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1.15;
 
 }
 .text {
-
+    font-family: 'sarala' sans-serif;
+    color: #f1f1f1;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.15;
 }
 .card {
     display: flex;
@@ -67,3 +86,12 @@
     width: 20px;
     padding: 10px;
 }
+.accent-transition {
+    display: inline-block;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .accent-transition.show {
+    opacity: 1;
+  }
