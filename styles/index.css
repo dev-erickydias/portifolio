@@ -14,7 +14,7 @@
     width: 100%;
     justify-content: space-around;
     background-color: #fff;
-    opacity: 50%;
+    opacity: 70%;
     border-radius: 30px;
 }
 .menu_nav {
@@ -33,13 +33,15 @@
     font-size: 20px;
     line-height: 1.15;
     color: #000000;
-    font-family: 'IBM Plex Serif', serif;
+    font-weight: bold;
+    
 }
 .menu_links-element:hover {
     color: orangered;
     font-weight: bold;
     transform: scale(1.1);
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    font-size: 20px;
 }
 /*aquie termina o meu header e começa o meu conteudo principal */
 .contain {
@@ -50,26 +52,36 @@
     display: flex;
     width: 30%;
     flex-direction: column;
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    justify-content: center;
+    margin: 70px auto;
 }
 .title {
+    width: 100%;
     font-family: 'sarala' sans-serif;
     color: #f1f1f1;
     margin: 20px auto 10px 30px;
-    font-size: 80px;
+    font-size: 90px;
     font-weight: bold;
     line-height: 1.15;
-
+    padding: 0 0 20px 0;
 }
 .text {
+    width: 50%;
     font-family: 'sarala' sans-serif;
     color: #f1f1f1;
     font-size: 20px;
     font-weight: normal;
     line-height: 1.15;
+    margin: 0 auto;
+    text-align: center;
+}
+.texts {
+    font-family: 'sarala' sans-serif;
+    color: #f1f1f1;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.15;
+    margin: 0 auto;
+    text-align: justify;
 }
 .card {
     display: flex;
