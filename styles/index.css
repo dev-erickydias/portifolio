@@ -74,15 +74,6 @@
     margin: 0 auto;
     text-align: center;
 }
-.texts {
-    font-family: 'sarala' sans-serif;
-    color: #f1f1f1;
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 1.15;
-    margin: 0 auto;
-    text-align: justify;
-}
 .card {
     display: flex;
     position: absolute;
