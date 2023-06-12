@@ -1,31 +1,24 @@
 @import url(./normalize.css);
 @import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
 .page {
-    background-color: #e7e6e6;
+    background-image: url(../images/pexels-shawn-stutzman-1010496.jpg);
+    background-color: #f1f1f1;
+    background-size: cover; /* ou background-size: 100% 100%; */
+    background-repeat: no-repeat;
+        
+        overflow-x: hidden;
 }
 .header{
     width: 100%;
-    margin: 0 auto;
-    display: flex;
-    position: relative;
-    align-content: center;
     justify-content: space-around;
-    margin: 20px auto 0;
-}
-.logo{
-    display: flex;
-}
-.menu {
-    display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: space-around;
-    
+    background-color: #fff;
+    opacity: 70%;
 }
 .menu_nav {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    padding: 20px;
 }
 .menu_links {
     list-style: none;
@@ -36,25 +29,41 @@
     font-family: 'Sarala', sans-serif;
     font-size: 20px;
     line-height: 1.15;
-    color: #2F80ED;
+    color: #000000;
 }
-.main {
-    display: flex; 
-    flex-direction: column;
-    border: 2px solid rebeccapurple;
-    width: 30%;
-    margin: 50px 0 0 50px;
-    row-gap: 30px;
+.menu_links-element:hover {
+    color: orangered;
 }
-.title{
-    font-family: 'sarala', sans-serif;
-    font-size: 30px;
+/*aquie termina o meu header e começa o meu conteudo principal */
+.contain {
+
 }
-.image_page{
+.title {
+
+}
+.text {
+
+}
+.card {
     display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    list-style: none;
+    column-gap: 10px;
+    background-color: #fff;
+    opacity: 70%;
+    border-radius: 20px;
+    padding: 0;
+}
+.card__link {
     
 }
-.footer {
+.card__link:hover {
     background-color: #000;
-    height: 90px;
+    opacity: 70%;
+}
+.card__images {
+    width: 20px;
+    padding: 10px;
 }
