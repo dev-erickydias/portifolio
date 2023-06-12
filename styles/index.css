@@ -13,7 +13,8 @@
     width: 100%;
     justify-content: space-around;
     background-color: #fff;
-    opacity: 70%;
+    opacity: 50%;
+    border-radius: 30px;
 }
 .menu_nav {
     display: flex;
@@ -34,6 +35,9 @@
 }
 .menu_links-element:hover {
     color: orangered;
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 /*aquie termina o meu header e começa o meu conteudo principal */
 .contain {
