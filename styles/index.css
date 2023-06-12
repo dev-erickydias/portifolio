@@ -85,8 +85,9 @@
 }
 .card__link:hover {
     background-color: #000;
-    opacity: 70%;
-}
+    opacity: 0.8;
+    transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
 .card__images {
     width: 20px;
     padding: 10px;
