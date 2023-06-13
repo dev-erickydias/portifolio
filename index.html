@@ -29,23 +29,6 @@
             <h1 class="title">Ericky Dias</h1>
             <p class="text">Desenvolvedor Web, Aprendendo a desenvolver e programar. <spana class="accent-transition"></spana></p>
         </div>
-        <script>
-            const acentElement = document.querySelector('.accent-transition');
-            const words = ['HTML', 'CSS', 'JavaScript'];
-            let currentWordIndex = 0;
-        
-            function changeWord() {
-              acentElement.classList.remove('show');
-              setTimeout(() => {
-                acentElement.textContent = words[currentWordIndex];
-                acentElement.classList.add('show');
-                currentWordIndex = (currentWordIndex + 1) % words.length;
-              }, 1000);
-            }
-        
-            setInterval(changeWord, 5000);
-            changeWord(); // Iniciar a transição imediatamente
-          </script>
 
 
     </main>
@@ -60,6 +43,7 @@
             <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/mail-icon.png" alt=""></a></li>
         </ul>
     </footer>
+    <script src="./java/script.js"></script>
 </body>
 
 </html>
