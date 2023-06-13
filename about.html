@@ -9,7 +9,7 @@
     <meta name="author" content="Ericky Dias">
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-    
+
     <title>Ericky Dias</title>
 </head>
 
@@ -23,36 +23,64 @@
         </ul>
     </header>
     <!-- aqui comeca o conteudo principal do meu site -->
-    <main class="contain">  
-        <ul class="card">
-            <li class="card__link">
-                <h2 class="card__title">Desejos</h2>
-                <p class="card__text">
-                    Meu maior desejo é me tornar um programador excepcional, capaz de resolver problemas cotidianos através da programação. Comecei minha jornada com HTML, CSS e JavaScript, mas pretendo expandir meu conhecimento em outras linguagens. Estou determinado a aprender cada vez mais a cada dia, até que cumpra meu objetivo.</p>
-            </li>
-            <li class="card__link">
-                <h2 class="card__title">De onde eu venho</h2>
-                <p class="card__text"></p>
-            </li>
-            <li class="card__link">
-                <h2 class="card__title"></h2>
-                <p class="card__text"></p>
-            </li>
-            <li class="card__link">
-                <h2 class="card__title"></h2>
-                <p class="card__text"></p>
-            </li>
-        </ul>
+    <main class="contain">
+
+        <div class="slider">
+
+            <div class="slides">
+                        <!-- navigation auto -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!-- cartoes de slide -->
+                <div class="slide primeiro">
+                    <div class="card">
+                        <h2 class="card__title"></h2>
+                        <p class="card__text"></p>
+                    </div>
+                </div>
+                <div class="slide segundo">
+                    <div class="card">
+                        <h2 class="card__title"></h2>
+                        <p class="card__text"></p>
+                    </div>
+                </div>
+                <div class="slide terceiro">
+                    <div class="card">
+                        <h2 class="card__title"></h2>
+                        <p class="card__text"></p>
+                    </div>
+                </div>
+                
+                        <!-- fim dos cartoes de slide -->
+                        <!-- navigation auto -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+            </div>
+
+        </div>
     </main>
     <!-- aqui comeca o rodape do meu site -->
     <footer class="footer">
         <ul class="footer__card">
-            <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/instagram-icon.png" alt=""></a>
+            <li class="footer__card__link"><a href="#"><img class="footer__card__images"
+                        src="./images/instagram-icon.png" alt=""></a>
             </li>
-            <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/github-icon.png" alt=""></a></li>
-            <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/whatsapp-icon.png" alt=""></a>
+            <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/github-icon.png"
+                        alt=""></a></li>
+            <li class="footer__card__link"><a href="#"><img class="footer__card__images"
+                        src="./images/whatsapp-icon.png" alt=""></a>
             </li>
-            <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/mail-icon.png" alt=""></a></li>
+            <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/mail-icon.png"
+                        alt=""></a></li>
         </ul>
     </footer>
 </body>
