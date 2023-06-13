@@ -44,15 +44,6 @@
     font-size: 20px;
 }
 /*aquie termina o meu header e começa o meu conteudo principal */
-.contain {
-   width: 100%; 
-   height: 600px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border: 2px solid rgb(181, 252, 2);
-   margin: 20px ;
-}
 
 /*aquie termina o meu header e começa o meu conteudo do footer */
 .footer__card {
@@ -62,7 +53,7 @@
     right: 20px;
     list-style: none;
     column-gap: 10px;
-    background-color: #000;
+    background-color: #ffffff;
     opacity: 70%;
     border-radius: 20px;
     padding: 0;
