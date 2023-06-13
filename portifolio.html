@@ -7,7 +7,7 @@
     <meta name="description" content="HTML e CSS Avançado sprint2">
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Ericky Dias">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/portifolio.css">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     
     <title>Ericky Dias</title>
@@ -24,29 +24,6 @@
     </header>
     <!-- aqui comeca o conteudo principal do meu site -->
     <main class="contain">  
-
-        <div class="contain__text">
-            <h1 class="title">Ericky Dias</h1>
-            <p class="text">Desenvolvedor Web, Aprendendo a desenvolver e programar. <spana class="accent-transition"></spana></p>
-        </div>
-        <script>
-            const acentElement = document.querySelector('.accent-transition');
-            const words = ['HTML', 'CSS', 'JavaScript'];
-            let currentWordIndex = 0;
-        
-            function changeWord() {
-              acentElement.classList.remove('show');
-              setTimeout(() => {
-                acentElement.textContent = words[currentWordIndex];
-                acentElement.classList.add('show');
-                currentWordIndex = (currentWordIndex + 1) % words.length;
-              }, 1000);
-            }
-        
-            setInterval(changeWord, 5000);
-            changeWord(); // Iniciar a transição imediatamente
-          </script>
-
 
     </main>
     <!-- aqui comeca o rodape do meu site -->
