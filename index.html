@@ -9,7 +9,7 @@
     <meta name="author" content="Ericky Dias">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-    
+
     <title>Ericky Dias</title>
 </head>
 
@@ -23,27 +23,45 @@
         </ul>
     </header>
     <!-- aqui comeca o conteudo principal do meu site -->
-    <main class="contain">  
+    <main class="contain">
 
         <div class="contain__text">
             <h1 class="title">Ericky Dias</h1>
-            <p class="text">Desenvolvedor Web, Aprendendo a desenvolver e programar. <spana class="accent-transition"></spana></p>
+            <p class="text">Desenvolvedor Web, Aprendendo a desenvolver e programar. <span
+                    class="accent-transition"></span></p>
         </div>
+        <script>const acentElement = document.querySelector('.accent-transition');
+            const words = ['HTML', 'CSS', 'JavaScript'];
+            let currentWordIndex = 0;
 
+            function changeWord() {
+                acentElement.classList.remove('show');
+                setTimeout(() => {
+                    acentElement.textContent = words[currentWordIndex];
+                    acentElement.classList.add('show');
+                    currentWordIndex = (currentWordIndex + 1) % words.length;
+                }, 1000);
+            }
+
+            setInterval(changeWord, 5000);
+            changeWord(); // Iniciar a transição imediatamente</script>
 
     </main>
     <!-- aqui comeca o rodape do meu site -->
     <footer class="footer">
         <ul class="footer__card">
-            <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/instagram-icon.png" alt=""></a>
+            <li class="footer__card__link"><a href="https://instagram.com/ericky_dias" target="_blank"><img class="footer__card__images"
+                        src="./images/instagram-icon.png" alt=""></a>
             </li>
-            <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/github-icon.png" alt=""></a></li>
-            <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/whatsapp-icon.png" alt=""></a>
+            <li class="footer__card__link"><a href="https://github.com/dev-erickydias" target="_blank"><img class="footer__card__images" src="./images/github-icon.png"
+                        alt=""></a></li>
+            <li class="footer__card__link"><a href="#" target="_blank"><img class="footer__card__images"
+                        src="./images/whatsapp-icon.png" alt=""></a>
             </li>
-            <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/mail-icon.png" alt=""></a></li>
+            <li class="footer__card__link"><a href="#" target="_blank"><img class="footer__card__images" src="./images/mail-icon.png"
+                        alt=""></a></li>
         </ul>
     </footer>
-    <script src="./java/script.js"></script>
 </body>
 
 </html>
