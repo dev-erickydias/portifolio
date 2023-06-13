@@ -4,7 +4,7 @@
 
 .page { 
     font-family: 'IBM Plex Serif', serif;
-    background-image: url(../images/pexels-shawn-stutzman-1010496.jpg);
+
     background-color: #f1f1f1;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@
 .header{
     width: 100%;
     justify-content: space-around;
-    background-color: #fff;
+    background-color: #000;
     opacity: 70%;
     border-radius: 30px;
 }
@@ -32,7 +32,7 @@
     font-family: 'Sarala', sans-serif;
     font-size: 20px;
     line-height: 1.15;
-    color: #000000;
+    color: #fff;
     font-weight: bold;
     
 }
@@ -50,24 +50,25 @@
 }
 .contain__text {
     display: flex;
-    width: 30%;
+    width: 100%;
     flex-direction: column;
     margin: 70px auto;
 }
 .title {
-    width: 100%;
+    width: 50%;
     font-family: 'sarala' sans-serif;
-    color: #f1f1f1;
-    margin: 20px auto 10px 30px;
-    font-size: 90px;
+    color: #000;
+    margin: 20px auto 10px auto;
+    font-size: 110px;
     font-weight: bold;
     line-height: 1.15;
     padding: 0 0 20px 0;
+    text-align: center;
 }
 .text {
-    width: 50%;
+    width: 30%;
     font-family: 'sarala' sans-serif;
-    color: #f1f1f1;
+    color: #000;
     font-size: 20px;
     font-weight: normal;
     line-height: 1.15;
@@ -81,7 +82,7 @@
     right: 20px;
     list-style: none;
     column-gap: 10px;
-    background-color: #fff;
+    background-color: #000;
     opacity: 70%;
     border-radius: 20px;
     padding: 0;
@@ -90,7 +91,7 @@
     
 }
 .footer__card__link:hover {
-    background-color: #000;
+    background-color: #fff;
     opacity: 0.8;
     transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
   }
