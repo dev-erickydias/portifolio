@@ -43,37 +43,6 @@
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
     font-size: 20px;
 }
-/*aquie termina o meu header e começa o meu conteudo principal */
-.contain {
-    display: flex;
-    margin: auto 0;
-}
-.contain__text {
-    display: flex;
-    width: 30%;
-    flex-direction: column;
-    margin: 70px auto;
-}
-.title {
-    width: 100%;
-    font-family: 'sarala' sans-serif;
-    color: #f1f1f1;
-    margin: 20px auto 10px 30px;
-    font-size: 90px;
-    font-weight: bold;
-    line-height: 1.15;
-    padding: 0 0 20px 0;
-}
-.text {
-    width: 50%;
-    font-family: 'sarala' sans-serif;
-    color: #f1f1f1;
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 1.15;
-    margin: 0 auto;
-    text-align: center;
-}
 .footer__card {
     display: flex;
     position: absolute;
@@ -97,12 +66,4 @@
 .footer__card__images {
     width: 20px;
     padding: 10px;
-}
-.accent-transition {
-    display: inline-block;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-.accent-transition.show {
-    opacity: 1;
 }

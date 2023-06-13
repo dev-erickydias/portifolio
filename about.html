@@ -9,14 +9,14 @@
     <meta name="author" content="Ericky Dias">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="">
+    
     <title>Ericky Dias</title>
 </head>
 
 <body class="page">
     <header class="header">
         <ul class="menu_nav">
-            <li class="menu_links"><a href="./index.html" class="menu_links-element">Home</a></li>
+            <li class="menu_links"><a href="./index.html" class="menu_links-element">home</a></li>
             <li class="menu_links"><a href="./about.html" class="menu_links-element">Sobre</a></li>
             <li class="menu_links"><a href="./contatos.html" class="menu_links-element">Contatos</a></li>
             <li class="menu_links"><a href="./portifolio.html" class="menu_links-element">Portifólio</a></li>
@@ -24,38 +24,17 @@
     </header>
     <!-- aqui comeca o conteudo principal do meu site -->
     <main class="contain">  
-        <div class="contain__text">
-            <h1 class="title">Ericky Dias</h1>
-            <p class="text">Desenvolvedor Web, Aprendendo a desenvolver e programar. <spana class="accent-transition"></spana></p>
-        </div>
-        <script>
-            const acentElement = document.querySelector('.accent-transition');
-            const words = ['HTML', 'CSS', 'JavaScript'];
-            let currentWordIndex = 0;
-        
-            function changeWord() {
-              acentElement.classList.remove('show');
-              setTimeout(() => {
-                acentElement.textContent = words[currentWordIndex];
-                acentElement.classList.add('show');
-                currentWordIndex = (currentWordIndex + 1) % words.length;
-              }, 1000);
-            }
-        
-            setInterval(changeWord, 5000);
-            changeWord(); // Iniciar a transição imediatamente
-          </script>
-          ul.cards
+
     </main>
     <!-- aqui comeca o rodape do meu site -->
     <footer class="footer">
-        <ul class="card">
-            <li class="card__link"><a href="#"><img class="card__images" src="./images/instagram-icon.png" alt=""></a>
+        <ul class="footer__card">
+            <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/instagram-icon.png" alt=""></a>
             </li>
-            <li class="card__link"><a href="#"><img class="card__images" src="./images/github-icon.png" alt=""></a></li>
-            <li class="card__link"><a href="#"><img class="card__images" src="./images/whatsapp-icon.png" alt=""></a>
+            <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/github-icon.png" alt=""></a></li>
+            <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/whatsapp-icon.png" alt=""></a>
             </li>
-            <li class="card__link"><a href="#"><img class="card__images" src="./images/mail-icon.png" alt=""></a></li>
+            <li class="footer__card__link"><a href="#"><img class="footer__card__images" src="./images/mail-icon.png" alt=""></a></li>
         </ul>
     </footer>
 </body>
