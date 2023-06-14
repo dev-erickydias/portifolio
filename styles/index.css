@@ -74,6 +74,14 @@
     margin: 0 auto;
     text-align: center;
 }
+
+.first__image_image {
+    width: 255px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
 .footer__card {
     display: flex;
     position: absolute;
