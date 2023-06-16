@@ -5,7 +5,7 @@
 
 .page { 
     font-family: 'IBM Plex Serif', serif;
-    background-color: #f1f1f1;
+    background-image: url(../images/coding-background.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -13,9 +13,12 @@
 .header{
     width: 100%;
     justify-content: space-around;
-    background-color: #000;
+    background-color: #000000;
     opacity: 70%;
     border-radius: 30px;
+}
+.header:hover {
+    box-shadow: 2px 2px 2px red;
 }
 .menu_nav {
     display: flex;
@@ -32,7 +35,7 @@
     font-family: 'Sarala', sans-serif;
     font-size: 20px;
     line-height: 1.15;
-    color: #fff;
+    color: #ffffff;
     font-weight: bold;
     
 }
@@ -57,9 +60,9 @@
 .title {
     width: 50%;
     font-family: 'sarala' sans-serif;
-    color: #000;
-    margin: 20px auto 10px auto;
-    font-size: 110px;
+    color: #ffffff;
+    margin: 5% auto 10px auto;
+    font-size: 130px;
     font-weight: bold;
     line-height: 1.15;
     padding: 0 0 20px 0;
@@ -68,8 +71,8 @@
 .text {
     width: 30%;
     font-family: 'sarala' sans-serif;
-    color: #000;
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 30px;
     font-weight: normal;
     line-height: 1.15;
     margin: 0 auto;
@@ -90,7 +93,7 @@
     right: 20px;
     list-style: none;
     column-gap: 10px;
-    background-color: #000;
+    background-color: #ffffff;
     opacity: 70%;
     border-radius: 20px;
     padding: 0;
@@ -99,9 +102,7 @@
     
 }
 .footer__card__link:hover {
-    background-color: #fff;
-    opacity: 0.8;
-    transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, opacity 0.1s ease-in-out;
   }
 .footer__card__images {
     width: 20px;
