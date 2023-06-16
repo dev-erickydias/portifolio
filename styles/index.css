@@ -101,6 +101,8 @@
     
 }
 .footer__card__link:hover {
+    background-color: #000000;
+    border-radius: 45%;
     transition: background-color 0.3s ease-in-out, opacity 0.1s ease-in-out;
   }
 .footer__card__images {
