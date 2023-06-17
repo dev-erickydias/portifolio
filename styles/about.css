@@ -5,21 +5,26 @@
 .page { 
     font-family: 'IBM Plex Serif', serif;
     background-image: url(../images/coding-background.jfif);
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     overflow-x: hidden;
 }
 /*---------------------------------- inicio do Header ----------------------------------*/
 .header{
     width: 100%;
     justify-content: space-around;
-    background-color: #000000;
-    opacity: 70%;
-    border-radius: 30px;
 }
-.header:hover {
-    box-shadow: 2px 2px 2px red;
+.title__header {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    width: 20%;
+    height: 20%;´
+    
 }
+
 .menu_nav {
     display: flex;
     width: 100%;
