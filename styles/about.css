@@ -16,12 +16,12 @@
     width: 100%;
     justify-content: space-around;
 }
-.title__header {
+.header__image {
     color: #fff;
     font-size: 30px;
     font-weight: bold;
     width: 20%;
-    height: 20%;´
+    height: 20%;
     
 }
 
@@ -34,6 +34,7 @@
 .menu_links {
     list-style: none;
     display: flex;
+    margin-top: 1%;
 }
 .menu_links-element{
     text-decoration: none;

@@ -1,20 +1,14 @@
-        <ul class="card">
-            <li class="card__link">
-                <h2 class="card__title">Desejos</h2>
-                <p class="card__text">
-                    Meu maior desejo é me tornar um programador excepcional, capaz de resolver problemas cotidianos através da programação. Comecei minha jornada com HTML, CSS e JavaScript, mas pretendo expandir meu conhecimento em outras linguagens. Estou determinado a aprender cada vez mais a cada dia, até que cumpra meu objetivo.</p>
-            </li>
-            <li class="card__link">
-                <h2 class="card__title">De onde eu venho</h2>
-                <p class="card__text">
-                    Meu nome é Ericky Dias, sou natural de Minas Gerais, Brasil. Desde criança, sou apaixonado por tecnologia. Sempre fui curioso e gostava de desmontar coisas para entender como funcionavam. Agora, decidi entrar no mundo da programação para poder criar soluções inovadoras e manter tudo funcionando perfeitamente. </p>
-            </li>
-            <li class="card__link">
-                <h2 class="card__title"></h2>
-                <p class="card__text"></p>
-            </li>
-            <li class="card__link">
-                <h2 class="card__title"></h2>
-                <p class="card__text"></p>
-            </li>
-        </ul>
+text sobre mim {
+    Sou um entusiasta de gatos apaixonado e um eterno aprendiz em busca de conhecimento. busca contínua por conhecimento. Acredito que nunca é tarde demais para aprender algo novo e sempre busco desafios que me permitam expandir minha mente. Seja explorando novas tecnologias, estudando diferentes culturas ou adquirindo habilidades práticas, estou constantemente me desafiando a crescer e me desenvolver.
+}
+card 2 {
+    
+Minha missão é buscar o reconhecimento em minha área e, um dia, transmitir a outros tudo o que aprendi e estou aprendendo. Acredito que o sucesso é conquistado por meio da constância de pequenos esforços repetidos diariamente, como bem afirmou Albert Einstein. Com dedicação, perseverança e comprometimento, busco alcançar meus objetivos e inspirar outros a fazerem o mesmo. Através do compartilhamento de conhecimento, colaboração e trabalho árduo, pretendo deixar um impacto positivo na minha área e na vida daqueles que cruzarem meu caminho.
+}
+card 3 {
+    Anime, Jogos e Programação:
+Sou apaixonado por animes e jogos, sempre aberto a novas experiências. Além disso, estou fascinado com a programação e suas capacidades de criar coisas incríveis com poucos comandos. Dentro das minhas paixões, a programação tem um lugar especial. Estou constantemente aprendendo e me aprimorando nessa área.
+
+Hobbies:
+Mantenho uma rotina de academia para cuidar da minha saúde e também adoro fazer trilhas, conectando-me com a natureza e desafiando-me física e mentalmente.
+}
