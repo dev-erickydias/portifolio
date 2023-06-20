@@ -27,6 +27,7 @@
   list-style: none;
   display: flex;
 }
+
 .menu_links-element {
   text-decoration: none;
   font-family: "Sarala", sans-serif;
@@ -39,7 +40,7 @@
   color: orangered;
   font-weight: bold;
   transform: scale(1.1);
-  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, transform 0.3s linear;
   font-size: 20px;
 }
 /*---------------------------------- inicio da pagina ----------------------------------*/
@@ -59,6 +60,7 @@
   flex-direction: column;
 }
 .card:hover {
+  box-shadow: 10px 10px 10px rgb(24, 44, 223);
 }
 .card__image {
   width: 50%;
